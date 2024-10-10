@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "calculator_pkg_MAD"
+version = "0.1.1"
+description = "A Python package for performing basic calculations."
+authors = [{name = "Miguel A. Diaz-Acevedo", email = "migueldiazacevedo@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/migueldiazacevedo/turing_college_projects"
+"Project" = "https://github.com/migueldiazacevedo/turing_college_projects/tree/main/module1-sprint1"
+"Package" = "https://github.com/migueldiazacevedo/turing_college_projects/tree/main/module1-sprint1/calculator_pkg_MAD"
+"Module" = "https://github.com/migueldiazacevedo/turing_college_projects/blob/main/module1-sprint1/calculator_pkg_MAD/calculator.py"
